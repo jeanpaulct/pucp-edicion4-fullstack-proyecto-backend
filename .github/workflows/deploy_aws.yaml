@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    - name: 1.- Checkout a la version del codigo
+    - name: 1. Checkout a la version del codigo
       uses: actions/checkout@v4
