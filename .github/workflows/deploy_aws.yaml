@@ -1,0 +1,13 @@
+name: Despliegue de Backend en AWS
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: 1.- Checkout a la version del codigo
+    uses: actions/checkout@v4
